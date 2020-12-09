@@ -1,24 +1,8 @@
-# README
+## DMM WEBCAMPコンテンツ【課題：アプリケーションを作成してみよう：基礎編】
+- アプリケーション作成課題のうちの1つです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,Ruby
+- フレームワーク：Ruby on Rails
+- 仮想環境：Vagrant
