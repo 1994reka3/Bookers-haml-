@@ -5,14 +5,15 @@ class BooksController < ApplicationController
 
   def index
     @book = Book.new
-    @books = Book.all
+    @books = Book.all.order(id: "ASC")
   end
 
   def create
     @book = Book.new(book_params)
     if @book.save
-      redirect_to books_path
+      redirect_to book_path(@book)
     else
+      @books = Book.all.order(id: "ASC")
       render :index
     end
   end
